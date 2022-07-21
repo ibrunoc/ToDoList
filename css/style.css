@@ -1,0 +1,131 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+}
+
+body{
+  background-image: url("/ToDoList/css/img/backgroundImg.jpg");
+}
+
+.container{
+  width: 50%;
+  background: rgba( 255, 255, 255, 0.6 );
+  box-shadow: rgb(0 0 0 / 25%) 0px 4px 24px -1px;
+  backdrop-filter: blur(13.5px);
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 10px;
+  margin: 200px auto;
+  border-radius: 15px;
+  border: solid 1px;
+}
+
+h1{ text-align: center; }
+
+.add{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add input{
+  width: 80%;
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+}
+
+.add button{
+  padding: 5px;
+  height: 50px;
+}
+
+.button-tasks{
+  width: 150px;
+  height: 10px;
+  padding: 5px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+}
+
+.button-tasks:hover{
+  background-color: rgb(8, 83, 221);
+  color: white;
+}
+
+
+.close{
+  padding: 12px 16px 12px 16px;
+  border-radius: 5px;
+  border: none;  
+  font-size: 16px;
+}
+
+.close:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+li{
+  padding: 10px 60px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul li.checked {
+  background: rgb(109, 185, 128);
+  color: #fff;
+  text-decoration: line-through;
+  border-radius: 10px;
+}
+
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  left: 35px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+
+@media screen and (max-width: 768px){
+  .add{
+    display: block;
+    text-align: center;
+  }
+
+  .button-tasks{
+    width: 130px;
+    margin-top: 10px;
+  }
+
+  .container{  width: 90%; }
+}
+
+@media screen and (max-width: 350px){
+  .add{
+    display: block;
+    text-align: center;
+  }
+
+  .button-tasks{
+    width: 70%;
+    font-size: 13px;
+  }
+
+  .container{  width: 80%; }
+}
