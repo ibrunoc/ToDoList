@@ -10,7 +10,7 @@ Um ToDo List que eu criei para treinar, um projeto simples com design simples.
     
 <p align="center">
   <a href="#Tecnologias-Usadas">Tecnologias Usadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="Como-Usar-O-Projeto">Como Usar O Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Como-Usar-O-Projeto">Como Usar O Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Resultado-Final">Resultado Final</a>
 </p>
 
