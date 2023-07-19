@@ -22,7 +22,6 @@ Um ToDo List que eu criei para treinar, um projeto simples com design simples.
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Git](https://git-scm.com/docs)
 - [VS Code](https://code.visualstudio.com/)
-- [Figma](https://figma.com/)
 
 ## Como Usar O Projeto
 Para clonar e executar este aplicativo, você precisará do [Git](https://git-scm.com), instalado em seu computador.
