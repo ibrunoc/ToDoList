@@ -27,7 +27,7 @@ Para clonar e executar este aplicativo, você precisará do [Git](https://git-sc
 
 ```bash
 # Clone esse repositório
-$ git clone https://github.com/Tigas29/IMC-CALCULATOR.git
+$ git clone https://github.com/ibrunoc/ToDoList.git
 
 # Abra o repositório
 
