@@ -15,7 +15,6 @@ Um ToDo List que eu criei para treinar, um projeto simples com design simples.
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Git](https://git-scm.com/docs)
-- [VS Code](https://code.visualstudio.com/)
 
 <div align="center">
   <h2><a href="https://to-do-list-seven-mu.vercel.app/">LINK DO PROJETO</a></h2>
